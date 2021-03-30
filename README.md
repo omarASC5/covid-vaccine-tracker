@@ -4,17 +4,17 @@
 
 1. [The Novel COVID-19 Virus](#The-Novel-COVID-19-Virus)
 2. [The Effect of COVID-19 World-Wide](#The-Effect-of-COVID-19-World-Wide)
-3. [COVID-19 Vaccine: Healing and Restructuring Society in Order to Protect Citizens](#COVID-19-Vaccine:Healing-and-Restructuring-Society-in-Order-to-Protect-Citizens)
-4. [COVID-19 Vaccine Tracker Application: An Informative Tool](#COVID-19-Vaccine-Tracker-Application:An-Informative-Tool)
+3. [Current Status of COVID-19 Vaccine](#Current-Status-of-COVID-19-Vaccine)
+4. [COVID-19 Vaccine Tracker Application](#COVID-19-Vaccine-Tracker-Application)
 5. [Contributors](#Contributors)
 
 ## The Novel COVID-19 Virus
 
 ## The Effect of COVID-19 World-Wide
 
-## COVID-19 Vacccine:Healing and Restructuring Society in Order to Protect Citizens 
+## Current Status of COVID-19 Vacccine
 
-## COVID-19 Vaccine Tracker Application:An Informative Tool
+## COVID-19 Vaccine Tracker Application
 
 An interactive global map that shows the progress of distribution of the Covid-19 vaccine.
 
