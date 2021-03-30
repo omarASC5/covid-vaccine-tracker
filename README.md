@@ -2,10 +2,10 @@
 
 ## Contents
 
-1. [The Novel COVID-19 Virus](#The Novel COVID-19 Virus)
-2. [The Effect of COVID-19 World-Wide](#The Effect of COVID-19 World-Wide)
-3. [COVID-19 Vaccine: Healing and Restructuring Society in Order to Protect Citizens](#COVID-19 Vaccine: Healing and Restructuring Society in Order to Protect Citizens)
-4. [COVID-19 Vaccine Tracker Application: An Informative Tool](#COVID-19 Vaccine Tracker Application: An Informative Tool)
+1. [The Novel COVID-19 Virus](#The-Novel-COVID-19-Virus)
+2. [The Effect of COVID-19 World-Wide](#The-Effect-of-COVID-19-World-Wide)
+3. [COVID-19 Vaccine: Healing and Restructuring Society in Order to Protect Citizens](#COVID-19-Vaccine:-Healing-and-Restructuring-Society-in-Order-to-Protect-Citizens)
+4. [COVID-19 Vaccine Tracker Application: An Informative Tool](#COVID-19-Vaccine-Tracker-Application:-An-Informative-Tool)
 5. [Contributors](#Contributors)
 
 ## The Novel COVID-19 Virus
