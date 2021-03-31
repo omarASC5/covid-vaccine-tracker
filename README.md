@@ -19,7 +19,7 @@
 
 ## COVID-19 Vaccine Tracker Application
 
-  Our goal with this application is to create an interactive global map that shows the progress of distribution of the COVID-19 vaccine. By utilizing an up-to-date repository from Our World in Data, we are able to show the most current progess of vaccine distribution from countries around the world. It is our hope that by promoting this information in an intuitive and easily accesible way that people can be more informed about worldwide policies and effects of COVID-19 vaccine distribution. 
+  Our goal with this application is to create an interactive global map that shows the progress of distribution of the COVID-19 vaccine. By utilizing an up-to-date [repository](https://github.com/owid/covid-19-data) from [Our World in Data](https://ourworldindata.org/), we are able to show the most current progess of vaccine distribution from countries around the world. It is our hope that by promoting this information in an intuitive and easily accesible way that people can be more informed about worldwide policies and effects of COVID-19 vaccine distribution. 
   
 ### Use Case Diagram 
 ![use case diagram](images/COVID-VACCINE-TRACKER.PNG)
