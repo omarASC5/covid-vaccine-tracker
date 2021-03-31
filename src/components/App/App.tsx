@@ -7,24 +7,30 @@ import { DataPointObject } from '../../data/DataPointObjectInterface';
 const App = () => {
   // store all the data here,
   const [vaccineData, setVaccineData] = useState<DataPointObject[]>([]);
+  const [firstTime, setFirstTime] = useState(true);
 
   useEffect(() => {
     // 86400 / 2
-    const updateTwiceDaily = 1000
-    // setInterval(() => {
-    //   getData()
-    //     .then(data => () => setVaccineData(data))
-    //     .catch(err => console.error(err));
-    // }, updateTwiceDaily);
-    const interval = setInterval(() => {
+    if (firstTime) {
       getData()
         .then(data => {
           setVaccineData([...data])
+          setFirstTime(false);
           console.log('YER', vaccineData)
         })
         .catch(err => console.error(err));
-    }, updateTwiceDaily);
-    return () => clearInterval(interval);
+    } else {
+      const updateTwiceDaily = 100000;
+      const interval = setInterval(() => {
+        getData()
+          .then(data => {
+            setVaccineData([...data])
+            console.log('YER', vaccineData)
+          })
+          .catch(err => console.error(err));
+      }, updateTwiceDaily);
+      return () => clearInterval(interval);
+    }
   }, []);
 
   return (

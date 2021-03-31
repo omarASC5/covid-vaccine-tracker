@@ -1,14 +1,46 @@
+import { useEffect, useRef } from 'react';
 import { DataPointObject } from '../../data/DataPointObjectInterface';
+import { WorldMap } from "react-svg-worldmap"
+
 
 const World = (props: {data: DataPointObject[]}) => {
     // TODO: Propagate props.data further
-    return (
-        <div>
-            {/* This tests a country can be printed! */}
-            { (props.data.length > 0) ? props.data[0].location : null}
-            World Component!!!
-        </div>
-    );
+    const data =
+    [
+      { country: "cn", value: 1389618778 }, // china
+      { country: "in", value: 1311559204 }, // india
+      { country: "us", value: 331883986 },  // united states
+      { country: "id", value: 264935824 },  // indonesia
+      { country: "pk", value: 210797836 },  // pakistan
+      { country: "br", value: 210301591 },  // brazil
+      { country: "ng", value: 208679114 },  // nigeria
+      { country: "bd", value: 161062905 },  // bangladesh
+      { country: "ru", value: 141944641 },  // russia
+      { country: "mx", value: 127318112 }   // mexico
+    ]
+
+  return (
+    <div className="World" >
+       {/* This tests a country can be printed! */}
+       { (props.data.length > 0) ? props.data[0].location : null}
+       World Component!!!
+       <WorldMap
+            color="purple"
+            title="Top 10 Populous Countries"
+            value-suffix="people"
+            size="lg"
+            data={data}
+        />
+    </div>
+  )
+    // return (
+    //     <div>
+    //         <canvas
+    //             id="myChart"
+    //             ref={chartRef}
+    //         />
+    //     </div>
+    // );
 }
 
 export default World;
