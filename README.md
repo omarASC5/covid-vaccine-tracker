@@ -22,7 +22,7 @@
   Our goal with this application is to create an interactive global map that shows the progress of distribution of the COVID-19 vaccine. By utilizing an up-to-date repository from Our World in Data, we are able to show the most current progess of vaccine distribution from countries around the world. It is our hope that by promoting this information in an intuitive and easily accesible way that people can be more informed about worldwide policies and effects of COVID-19 vaccine distribution. 
   
 ### Use Case Diagram 
-![use case diagram](/images/COVID-VACCINE-TRACKER.png)
+[use case diagram](/images/covid-vaccine-tracker.png)
 ## Contributors
 1. Escher Campanella - campae@rpi.edu
 2. Ryan Carrido - carrir2@rpi.edu
