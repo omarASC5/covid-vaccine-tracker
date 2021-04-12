@@ -3,10 +3,11 @@ import { updateData } from '../../data/updateData';
 import getData from '../../data/getData';
 import World from '../World/World';
 import { DataPointObject } from '../../data/DataPointObjectInterface';
+import { DataPoint } from '../../data/DataPoint';
 
 const App = () => {
   // store all the data here,
-  const [vaccineData, setVaccineData] = useState<DataPointObject[]>([]);
+  const [vaccineData, setVaccineData] = useState<DataPoint[]>([]);
   const [firstTime, setFirstTime] = useState(true);
 
   useEffect(() => {
@@ -45,6 +46,6 @@ const App = () => {
   // Propogate the state as props to each country component
 
 export interface Props {
-  data: DataPointObject[];
+  data: DataPoint[];
 }
 export default App;

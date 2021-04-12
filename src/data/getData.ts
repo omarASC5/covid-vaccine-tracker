@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { DataPoint } from './DataPoint';
 import { DataPointObject } from './DataPointObjectInterface';
 
 const getData = async () => {
@@ -6,7 +7,7 @@ const getData = async () => {
     const result = await axios.get(url);
     const data : string = result.data;
     const dataByRows : Array<String> = data.split("\n").slice(1);
-    const arrayOfDataPoints : Array<DataPointObject> = dataByRows.map(row => {
+    const arrayOfDataPoints : Array<DataPoint> = dataByRows.map(row => {
         const [location, iso_code, date, total_vaccinations,
             people_vaccinated, people_fully_vaccinated,
             daily_vaccinations_raw, daily_vaccinations,
@@ -56,7 +57,7 @@ const getData = async () => {
         if (isNaN(daily_vaccinations_per_million_int)) {
             daily_vaccinations_per_million_int = 0;
         }
-        const dataPoint : DataPointObject = {
+        const dataPointStructure : DataPointObject = {
             location: location,
             iso_code: iso_code,
             date: date_datetype_or_null,
@@ -70,6 +71,8 @@ const getData = async () => {
             people_fully_vaccinated_per_hundred: people_fully_vaccinated_per_hundred_int,
             daily_vaccinations_per_million: daily_vaccinations_per_million_int
         };
+        const dataPoint = new DataPoint(dataPointStructure);
+        
         return dataPoint;
     });
     return arrayOfDataPoints;
