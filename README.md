@@ -15,9 +15,11 @@
   Due to the severity of this disease, scientists and researchers worldwide have been continuously working in order to create an effective vaccine to promote protective immunity in individuals. In December 2020, the Center for Disease Control (CDC) reported that about 2.8 million people had recieved an initial vaccination in the United States.
 
 ## The Effect of COVID-19 World-Wide
-
-## Current Status of COVID-19 Vacccine
-
+  Because of the pandemic, people have been travelling less since country borders have been closed and jobs moved online. This resulted in overall higher air quality in big metro areas across the world. There has also been a reduction in water pollution in many parts of the world. 
+  
+## Current Status of COVID-19 Vaccine
+  In the United States and in most parts of the world, the vaccines that are available to the public are made by the companies Pfizer, Moderna, and Johnson & Johnson. Using this software, you'll be able to see information on how many people are vaccinated in each country. Most countries are buying doses of vaccines from these three companies and giving out their vaccines based on age and relevant health conditions.
+  
 ## COVID-19 Vaccine Tracker Application
 
   Our goal with this application is to create an interactive global map that shows the progress of distribution of the COVID-19 vaccine. By utilizing an up-to-date [repository](https://github.com/owid/covid-19-data) from [Our World in Data](https://ourworldindata.org/), we are able to show the most current progess of vaccine distribution from countries around the world. It is our hope that by promoting this information in an intuitive and easily accesible way that people can be more informed about worldwide policies and effects of COVID-19 vaccine distribution. 
